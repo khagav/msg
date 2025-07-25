@@ -1,1 +1,19 @@
+<!-- B端核心结构示例 -->
+<div class="flex h-screen">
+  <!-- 左侧用户列表 -->
+  <div class="w-1/3 border-r p-2">
+    <h3 class="text-lg font-bold">在线用户</h3>
+    <div id="user-list">
+      <!-- 用户项：guest_8f2d [在线] [允许发言] -->
+    </div>
+  </div>
+  <!-- 右侧消息+权限 -->
+  <div class="w-2/3 flex flex-col">
+    <div id="host-message-list" class="flex-1 overflow-y-auto p-2"></div>
+    <div class="p-2 border-t">
+      <input type="text" id="host-input" placeholder="回复消息...">
+      <button id="host-send">发送</button>
+    </div>
+  </div>
+</div>
 
