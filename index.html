@@ -1,1 +1,18 @@
+<!-- A端核心结构示例（用Tailwind CSS快速样式化） -->
+<div class="max-w-md mx-auto border-2 border-gray-300 rounded-3xl h-screen flex flex-col">
+  <!-- 顶部状态栏 -->
+  <div class="bg-gray-800 text-white p-3 text-center">
+    <span>与主机聊天</span>
+    <span id="online-status" class="ml-2 text-green-400 text-xs">● 在线</span>
+  </div>
+  <!-- 消息列表 -->
+  <div id="message-list" class="flex-1 overflow-y-auto p-2">
+    <!-- 消息气泡动态生成 -->
+  </div>
+  <!-- 输入区 -->
+  <div class="p-3 border-t">
+    <input type="text" id="msg-input" placeholder="输入消息..." class="w-full p-2 border rounded-l-lg">
+    <button id="send-btn" class="bg-blue-500 text-white p-2 rounded-r-lg">发送</button>
+  </div>
+</div>
 
